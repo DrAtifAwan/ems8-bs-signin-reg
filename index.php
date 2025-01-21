@@ -9,66 +9,7 @@ session_start(); // Start a session to manage user state
     <title>Event Management System</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        header {
-            background-color: #007bff;
-            color: white;
-            padding: 15px 20px;
-            text-align: center;
-        }
-        .container {
-            max-width: 900px;
-            margin: 30px auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-        h1, h2 {
-            color: #007bff;
-        }
-        .roles {
-            display: flex;
-            justify-content: space-around;
-            margin: 30px 0;
-        }
-        .role-card {
-            background: #f4f4f4;
-            padding: 20px;
-            text-align: center;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            flex: 0 0 45%;
-        }
-        .role-card h3 {
-            margin-bottom: 10px;
-        }
-        .role-card a {
-            display: inline-block;
-            padding: 10px 15px;
-            margin-top: 10px;
-            text-decoration: none;
-            color: white;
-            background-color: #007bff;
-            border-radius: 5px;
-        }
-        .role-card a:hover {
-            background-color: #0056b3;
-        }
-        footer {
-            text-align: center;
-            margin: 20px 0;
-            font-size: 14px;
-            color: #666;
-        }
-    </style>
+
 </head>
 <body>
     <header>
@@ -93,7 +34,6 @@ session_start(); // Start a session to manage user state
             </div>
         </div>
     </div>
-
     <footer>
         <p>&copy; 2024 Event Management System. All rights reserved.</p>
     </footer>
